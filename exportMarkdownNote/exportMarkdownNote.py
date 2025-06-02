@@ -8,9 +8,9 @@ import unicodedata
 note_name = 'Writeup.md'  # Replace with the name of the specific markdown file you want to process
 
 # Paths to your Obsidian vault and Hugo export directory
-obsidian_vault_path = 'I:\\Obsidian Vault\\Hackthebox - Titanic\\deliverables'  # Replace with the path to your Obsidian vault (Windows)
-hugo_zip_output_path = 'C:\\Users\\'  # Path to where zip files should be saved (e.g., a temporary directory)
-images_directory_path = 'I:\\Obsidian Vault\\Attachments'
+obsidian_vault_path = '/home//Documents/Hackthebox_Vault/Hackthebox - Planning/deliverables'  # Replace with the path to your Obsidian vault (Windows)
+hugo_zip_output_path = '/home//Documents'  # Path to where zip files should be saved (e.g., a temporary directory)
+images_directory_path = '/home//Documents/Hackthebox_Vault/Attachments'
 
 
 # Function to process markdown file and move images
